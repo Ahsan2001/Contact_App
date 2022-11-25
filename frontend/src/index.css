@@ -11,3 +11,57 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.listing{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.listing img{
+  width: 100px;
+  height: 100px;
+}
+
+h4 {
+  margin: 0 20px;
+  width: 300px;
+}
+h4 span{
+  display: block;
+}
+
+button {
+  background: rgb(255, 0, 0);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.list-contacts {
+  width: 50%;
+  margin: 10px auto;
+}
+
+input{
+  width: 100%;
+  padding: 10px;
+  margin: 50px 0 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+.show-all{
+  text-align: center;
+  margin: 20px 0;
+}
+
+.show-all button {
+  background: rgb(6, 191, 126);
+  margin: 0 0 0 20px;
+}
